@@ -1,0 +1,275 @@
+@media screen and (max-width: 2550px) {
+.nav-top-rightx {
+display: none; }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+.s-1,
+.s-2,
+.s-3,
+.s-4,
+.s-5,
+.s-6,
+.s-7,
+.s-8,
+.s-9,
+.s-10,
+.s-11 {
+  margin: 10px;
+  color: #fff;
+  position: relative;
+  height: 130px;
+  width: 250px; }
+
+}
+
+@media screen and (max-width: 1037px) {
+	.modal-content{
+	background: #fff;
+	width: 600px;
+	height: 400px;
+	transform: translate(-50%, -50%);
+	position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.left-wr{
+	display: none;
+}
+  .modal-content .center-wr {
+    background: #fff;
+    height: 100%;
+    width: 50%; }
+  .modal-content .right-wr {
+    background: #1f1f1f;
+    height: 100%;
+    width: 50%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; }
+
+		}
+@media screen and (max-width: 767px) {
+	/*header*/
+	.nav-top-right {
+ display: none; }
+	.nav-top-rightx {
+ display:block; }
+ .hidden-top-nav {
+  display: block; }
+  /*popup*/
+  .modal-content{
+	background: #fff;
+	width: 300px;
+	height: 400px;
+	transform: translate(-50%, -50%);
+	position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.center-wr{
+	display: none;
+}
+.left-wr{
+	display: none;
+}
+  .modal-content .right-wr {
+    background: #1f1f1f;
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; }
+}
+
+@media screen and (max-width: 689px){
+	.justy {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content:center; }
+  .s-11 {
+  background: url(../img/s-10.png) no-repeat 50% 50%/contain;
+  /*	height: 130px;
+	width: 200px;*/
+  display:block; }
+  .s-10 {
+  background: url(../img/s-10.png) no-repeat 50% 50%/contain;
+  display: none; }
+	
+}
+@media screen and (max-width: 553px) {
+	
+
+	.nav-top-left {
+  margin-top: 6px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+  .nav-top-left img {
+    display: inline-block;
+    float: left;
+    margin-top: 20px; 
+}
+  .nav-top-left p {
+    margin-left: 10px;
+    display: inline-block;
+    max-width: 86px;
+    color: #000000;
+    font-family: "Gotham Pro";
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 20px; }
+
+ .hidden-top-nav {
+  display: none; }
+  	.nav-top-right {
+ display:block; 
+text-align: center;}
+  .nav-top-right p {
+    color: #000000;
+    font-family: "Gotham Pro";
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 24px; 
+color: #fff}
+  .nav-top-right span {
+    color: #ff0008;
+    font-family: "Gotham Pro";
+    font-size: 18px;
+    font-weight: 400; 
+color: #fff}
+
+.title-text {
+  text-align: center; }
+  .title-text h4 {
+    margin: 18px auto;
+    color: #ffffff;
+    font-family: "Gotham Pro";
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    text-shadow: -0   -2px 0   #000000,
+ 0   -2px 0   #000000,
+ -0    2px 0   #000000,
+ 0    2px 0   #000000,
+ -2px -0   0   #000000,
+ 2px -0   0   #000000,
+ -2px  0   0   #000000,
+ 2px  0   0   #000000,
+ -1px -2px 0   #000000,
+ 1px -2px 0   #000000,
+ -1px  2px 0   #000000,
+ 1px  2px 0   #000000,
+ -2px -1px 0   #000000,
+ 2px -1px 0   #000000,
+ -2px  1px 0   #000000,
+ 2px  1px 0   #000000,
+ -2px -2px 0   #000000,
+ 2px -2px 0   #000000,
+ -2px  2px 0   #000000,
+ 2px  2px 0   #000000,
+ -2px -2px 0   #000000,
+ 2px -2px 0   #000000,
+ -2px  2px 0   #000000,
+ 2px  2px 0   #000000; }
+	  .form-group .title-form {
+    text-align: center;
+    color: #000000;
+    font-family: "Gotham Pro";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase; }
+   .form-group .text-down {
+    margin-top: 10px;
+    text-align: center;
+    color: #000000;
+    font-family: "Gotham Pro";
+    font-size: 10px;
+    font-weight: 400; }
+
+    /*form*/
+    .form-group .form-form-red {
+    width: 351px;
+    height: 47px;
+    padding-left: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: inset 6px 5px 8px rgba(0, 1, 2, 0.3);
+    border-radius: 23px;
+    background: url(../img/phone-icon-black.png) #fff no-repeat 5% 40%/auto; }
+      .form-group .btn-form-red {
+    width: 231px;
+    height: 47px;
+    border-radius: 23px;
+    margin-left:0px;
+    background: #ff0008;
+    border: 1px solid #ff0008;
+    text-shadow: 1px 2px 4px rgba(137, 5, 9, 0.65);
+    color: #ffffff;
+    font-family: "Gotham Pro";
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase; }
+
+
+}
+@media screen and (max-width: 496px) {
+    /*form*/
+    .form-group .form-form-red {
+    width: 231px;
+    height: 47px;
+    margin-bottom: 10px;
+    box-shadow: inset 6px 5px 8px rgba(0, 1, 2, 0.3);
+    border-radius: 23px;
+    background: url(../img/phone-icon-black.png) #fff no-repeat 5% 40%/auto; }
+}
+@media screen and (max-width: 456px) {
+	.title-text {
+  text-align: center; }
+  .title-text h4 {
+    margin: 18px auto;
+    color: #ffffff;
+    font-family: "Gotham Pro";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    text-shadow: -0   -2px 0   #000000,
+ 0   -2px 0   #000000,
+ -0    2px 0   #000000,
+ 0    2px 0   #000000,
+ -2px -0   0   #000000,
+ 2px -0   0   #000000,
+ -2px  0   0   #000000,
+ 2px  0   0   #000000,
+ -1px -2px 0   #000000,
+ 1px -2px 0   #000000,
+ -1px  2px 0   #000000,
+ 1px  2px 0   #000000,
+ -2px -1px 0   #000000,
+ 2px -1px 0   #000000,
+ -2px  1px 0   #000000,
+ 2px  1px 0   #000000,
+ -2px -2px 0   #000000,
+ 2px -2px 0   #000000,
+ -2px  2px 0   #000000,
+ 2px  2px 0   #000000,
+ -2px -2px 0   #000000,
+ 2px -2px 0   #000000,
+ -2px  2px 0   #000000,
+ 2px  2px 0   #000000; }
+}
+
+
+@media screen and (max-width: 456px) {
+
+  .modal-content .close-pop {
+    background: url(../img/close-b.png) no-repeat 50% 50%/cover;
+    height: 23px;
+    width: 23px;
+    position: absolute;
+    top: -30px;
+    right: 0px;
+    z-index: 1000;
+    cursor: pointer; }
+
+}
